@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>복리 계산기</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📈 복리 계산기</h1>
+
+    <label for="principal">
+      초기 금액 (₩): 
+      <input type="number" id="principal" placeholder="예: 1,000,000">
+    </label>
+
+    <label for="rate">
+      이자율 (%): 
+      <input type="number" id="rate" placeholder="예: 5">
+    </label>
+
+    <label for="years">
+      기간 (년): 
+      <input type="number" id="years" placeholder="예: 10">
+    </label>
+
+    <button onclick="calculate()">계산하기</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
