@@ -14,5 +14,5 @@ function calculate() {
     currency: "KRW"
   });
 
-  document.getElementById("result").innerText = `예상 금액: ${result}`;
+  document.getElementById("result").innerText = `${years}년 후 예상 금액은 ${result}입니다.`;
 }
